@@ -14,7 +14,12 @@ The Sinkhorn Distance revolutionized optimal transport in machine learning by in
 The operational shift from discrete linear programming to continuous, entropic-regularized scaling.
 
 ```mermaid
-[1781: Monge's Formulation]       ──► Combinatorial assignment (Mass-splitting forbidden)│▼[1942: Kantorovich Relaxation]    ──► Linear programming relaxation (Mass-splitting allowed)│▼[1998: Earth Mover's Distance]    ──► Computer vision adaptation via simplex solvers (\(O(N^3 \log N)\))│▼[2013: Sinkhorn Distance]         ──► Entropic Regularization + Sinkhorn-Knopp Matrix Scaling (\(O(N^2)\))│▼[Modern: Unbalanced & Gromov]     ──► Scaling to disparate masses and non-aligned metric spaces
+flowchart TD
+    A["1781: Monge's Formulation<br/>Combinatorial Assignment (Mass-Splitting Forbidden)"]
+    --> B["1942: Kantorovich Relaxation<br/>Linear Programming Relaxation (Mass-Splitting Allowed)"]
+    --> C["1998: Earth Mover's Distance<br/>Computer Vision Adaptation via Simplex Solvers (O(N³ log N))"]
+    --> D["2013: Sinkhorn Distance<br/>Entropic Regularization + Sinkhorn-Knopp Matrix Scaling (O(N²))"]
+    --> E["Modern: Unbalanced & Gromov<br/>Scaling to Disparate Masses and Non-Aligned Metric Spaces"]
 ```
 
 ---
