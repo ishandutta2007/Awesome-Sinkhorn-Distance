@@ -4,11 +4,15 @@
   <img src="assets/banner.svg" alt="Awesome Sinkhorn Distance Banner" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</p>
+
 ## 📐 The Sinkhorn Distance & Optimal Transport Map
 
-The Sinkhorn Distance is a fundamental mathematical formulation in optimal transport, machine learning, and computer vision. It solves the classic Monge-Kantorovich Optimal Transport (OT) problem by adding an entropic regularization term, transforming a slow \(O(N^3 \log N)\) linear programming problem into a highly scalable, GPU-friendly \(O(N^2)\) matrix scaling operation via Sinkhorn's algorithm. Here is a comprehensive reference tracking the mathematical details, evolutionary lineage, core algorithm, and modern machine learning applications of the Sinkhorn Distance.
+The **Sinkhorn Distance** is a fundamental mathematical formulation in **optimal transport**, **machine learning**, **deep learning**, and **computer vision**. It solves the classic Monge-Kantorovich Optimal Transport (OT) problem by adding an entropic regularization term, transforming a slow \(O(N^3 \log N)\) linear programming problem into a highly scalable, GPU-friendly \(O(N^2)\) matrix scaling operation via **Sinkhorn's algorithm**. Here is a comprehensive reference tracking the mathematical details, evolutionary lineage, core algorithm, and modern machine learning applications of the Sinkhorn Distance.
 
-> **A comprehensive reference guide for the Sinkhorn Distance—mapping its mathematical formulation, evolutionary lineage from classical Earth Mover's Distance, algorithmic execution, and deep learning implementations.**
+> **A comprehensive reference guide for the Sinkhorn Distance—mapping its mathematical formulation, evolutionary lineage from classical Earth Mover's Distance (EMD), algorithmic execution, and deep learning implementations.**
 
 The Sinkhorn Distance revolutionized optimal transport in machine learning by introducing entropic regularization. This single innovation transformed a computationally prohibitive linear programming bottleneck into a fast, differentiable matrix scaling problem that natively accelerates on modern hardware.
 
