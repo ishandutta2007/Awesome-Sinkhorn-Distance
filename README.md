@@ -91,3 +91,16 @@ chartPlaceholder(chartDescription = "The trade-off curve between regularizer str
 *   🤖 **Self-Supervised Learning (SwAV):** Used in clustering-based representation learning. The Sinkhorn-Knopp algorithm enforces a fair, uniform assignment of images across latent cluster prototypes, entirely preventing the model from collapsing into a single cluster.
 *   🔗 **Graph Matching & Point Cloud Registration (SuperGlue):** Matches feature keypoints across disparate camera angles or 3D coordinate fields by treating keypoint alignment as an optimal transport problem.
 *   📝 **Natural Language Processing (Word Mover's Distance):** Evaluates semantic document similarity by tracking the minimal Sinkhorn cost required to travel from the token embeddings of Document A to the token embeddings of Document B.
+
+---
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Sinkhorn-Distance&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Sinkhorn-Distance&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Sinkhorn-Distance&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Sinkhorn-Distance&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
